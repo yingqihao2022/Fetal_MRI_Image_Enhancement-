@@ -45,7 +45,7 @@ The complete source code has been provided. Parts of the codebase are built upon
 Pre-trained model weights will be released upon paper acceptance.
 
 ## Usage
-# Training
+
 ```bash
 # Train Stage 1 (VAE)
 python train_first_stage.py
