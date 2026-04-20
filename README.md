@@ -1,4 +1,4 @@
-# FetMRIE: Unsupervised Fetal Brain MRI Enhancement with Anatomical Fidelity
+# FetMRIE: Fetal Brain Magnetic Resonance Image Enhancement without Clean Reference
 
 **Official Implementation — Under Review at Medical Image Analysis (MedIA)**
 
