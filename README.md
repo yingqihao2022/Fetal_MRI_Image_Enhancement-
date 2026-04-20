@@ -27,13 +27,6 @@ The framework operates in two stages:
 - **Stage 2**: A pre-trained DDPM with an adaptive state-matching mechanism automatically estimates the optimal forward diffusion step for each slice, enabling case-specific structural restoration without manual tuning.
 
 ---
-## Usage
-### Training
-```bash
-# Train Stage 1 (VAE)
-python train_first_stage.py
-# Train Stage 2 (DDPM)
-python train_second_stage.py
 
 ## Key Features
 
@@ -50,4 +43,17 @@ python train_second_stage.py
 The complete source code has been provided. Parts of the codebase are built upon [MONAI](https://github.com/Project-MONAI/MONAI) — we gratefully acknowledge their work.
 
 Pre-trained model weights will be released upon paper acceptance.
+
+## Usage
+# Training
+```bash
+# Train Stage 1 (VAE)
+python train_first_stage.py
+# Train Stage 2 (DDPM)
+python train_second_stage.py
+# Testing
+python test_all.py
+```
+
+
 
